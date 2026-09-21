@@ -47,21 +47,22 @@ Techniques used:
 
 The main dataset is available in the "Vrinda Store" worksheet.
 
-It contains 31,047 records with 21 columns, including:
+It contains **31,047 records across 21 columns**, including:
 
 - Order ID
-- Customer ID
+- Cust ID
 - Gender
 - Age
 - Age Group
 - Date
 - Month
-- Order Status
-- Sales Channel
+- Status
+- Channel
 - SKU
 - Category
 - Size
-- Quantity
+- Qty
+- Currency
 - Amount
 - Ship City
 - Ship State
@@ -161,7 +162,7 @@ The channels included are:
 
 📊 Dashboard
 
-The Report worksheet contains the main Vrinda Store Annual Report 2026 dashboard.
+The `Report` worksheet contains the main Vrinda Store Annual Report 2026 dashboard.
 
 The dashboard brings together the different analyses into a visual report so that sales and customer-related information can be reviewed more easily.
 
@@ -211,28 +212,36 @@ Through this project, I practiced:
 
 Dashboard
 
-<img width="683" height="263" alt="Screenshot 2026-09-21 185427" src="https://github.com/user-attachments/assets/dc83ad9d-34ce-4187-95c1-cde57485aa6d" />
+<img width="622" height="272" alt="Dashboard" src="https://github.com/user-attachments/assets/81506713-e265-48e9-b4a8-295481df2ba2" />
+
 
 
 Sales & Orders Analysis
 
-<img width="541" height="242" alt="Screenshot 2026-09-21 190517" src="https://github.com/user-attachments/assets/26172bd4-3674-46c0-aef9-c9853ba11871" />
+<img width="609" height="255" alt="Sales_Vs_Orders" src="https://github.com/user-attachments/assets/2f6e5393-461d-419c-9243-e91e8b13dc55" />
 
-<img width="591" height="243" alt="Screenshot 2026-09-21 190537" src="https://github.com/user-attachments/assets/92fc8c0d-6089-460f-ad5e-400d4374b72a" />
+
+Men Vs Women
+
+<img width="530" height="256" alt="men_vs_women" src="https://github.com/user-attachments/assets/b374a30d-0da6-4f16-8148-32eb4a774e97" />
+
+Order Status
+
+<img width="494" height="245" alt="order_status" src="https://github.com/user-attachments/assets/f5408a9e-b96a-4513-b195-67898fd4b70a" />
+
+Top 10 States
+
+<img width="560" height="244" alt="top_10_states" src="https://github.com/user-attachments/assets/25dbcdea-55d4-4e6b-a9b8-7d5deed3c774" />
+
 
 Age In Gender
 
-<img width="497" height="179" alt="Screenshot 2026-09-21 191119" src="https://github.com/user-attachments/assets/3e878f43-6459-4da6-8f03-bfd78bb7cac1" />
-
-
-Customer Analysis
-
-<img width="527" height="255" alt="Screenshot 2026-09-21 190719" src="https://github.com/user-attachments/assets/32fe4172-4861-4982-87b8-6d9dcdf6bc7b" />
+<img width="494" height="176" alt="age_in_gender" src="https://github.com/user-attachments/assets/8fb5dfe3-8e9e-47c0-aee7-53637c6154f4" />
 
 
 Channel Analysis
 
-<img width="352" height="218" alt="Screenshot 2026-09-21 190849" src="https://github.com/user-attachments/assets/7233afd7-27fe-4dc1-93b3-f8c4689fad46" />
+<img width="359" height="220" alt="channels" src="https://github.com/user-attachments/assets/5fadda50-3b19-4cbe-baab-503600a29490" />
 
 
 ---
@@ -259,7 +268,7 @@ vrinda-store-sales-analysis/
 
 ---
 
-📚 Learning Note
+## 📚 Learning Note
 
 This project was completed as a tutorial-guided Excel project based on a YouTube tutorial.
 
